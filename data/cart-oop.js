@@ -81,11 +81,10 @@ function Cart(localStorageKey){
        
            this.saveToStorage();
          }
-         
-       
-         
-       
-       };
+         };
+
+       return cart;
+
        
 }
 
